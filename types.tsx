@@ -9,8 +9,13 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
+  Todos: undefined;
   TabOne: undefined;
   TabTwo: undefined;
+};
+
+export type TabTodosParamList = {
+  TabTodosScreen: undefined;
 };
 
 export type TabOneParamList = {
